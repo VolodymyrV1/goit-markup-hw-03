@@ -154,6 +154,11 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .btn-order-service {
@@ -164,11 +169,15 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  margin: 0 auto;
+  margin-bottom: 188px;
+  display: block;
 }
 
 .btn-order-service:hover,
 .btn-order-service:focus {
   background-color: #404bbf;
+
 }
 
 /* =====BENEFITS===== */
@@ -188,6 +197,7 @@ body {
 
 .benefits-subtitle {
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -199,9 +209,12 @@ body {
 }
 
 .team-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-list {
+  padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -228,9 +241,13 @@ body {
 }
 
 .portfolio-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
+  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .portfolio-list-item {
@@ -250,6 +267,7 @@ body {
 
 .footer {
   background: #2e2f42;
+  padding-top: 101.5px;
 }
 
 .footer-logo {
@@ -260,6 +278,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
+
 }
 
 .footer-logo-accent {
@@ -267,4 +288,6 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
+  padding-bottom: 100px;
+  max-width: 264px;
 }
