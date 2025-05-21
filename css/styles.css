@@ -169,15 +169,14 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: inline-block;
   margin: 0 auto;
   margin-bottom: 188px;
-  display: block;
 }
 
 .btn-order-service:hover,
 .btn-order-service:focus {
   background-color: #404bbf;
-
 }
 
 /* =====BENEFITS===== */
@@ -201,6 +200,7 @@ body {
 }
 
 .benefits-list-text {
+  max-width: 264px;
 }
 
 /* =====TEAM===== */
@@ -225,6 +225,7 @@ body {
 }
 
 .team-subtitle {
+  margin-bottom: 8px;
 }
 
 .team .team-text {
@@ -258,6 +259,7 @@ body {
 
 .portfolio-subtitle {
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -280,7 +282,6 @@ body {
   color: #4d5ae5;
   margin-bottom: 16px;
   display: inline-block;
-
 }
 
 .footer-logo-accent {
