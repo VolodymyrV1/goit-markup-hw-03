@@ -145,6 +145,7 @@ body {
 
 .head {
   background: #2e2f42;
+  padding-bottom: 188px;
 }
 
 .head-title {
@@ -169,9 +170,9 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-  display: inline-block;
+  display: block;
   margin: 0 auto;
-  margin-bottom: 188px;
+
 }
 
 .btn-order-service:hover,
@@ -189,9 +190,11 @@ body {
 }
 
 .benefits-list {
+  display: flex;
 }
 
 .benefits-list-item {
+  margin-right: 25px;
 }
 
 .benefits-subtitle {
@@ -215,13 +218,16 @@ body {
 
 .team-list {
   padding-bottom: 120px;
+  display: flex;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  margin-right: 24px;
 }
 
 .team-img {
+  margin-bottom: 32px;
 }
 
 .team-subtitle {
@@ -249,12 +255,16 @@ body {
 .portfolio-list {
   padding-bottom: 120px;
   margin-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-list-item {
+  margin-right: 24px;
 }
 
 .portfolio-img {
+  margin-bottom: 32px;
 }
 
 .portfolio-subtitle {
