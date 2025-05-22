@@ -79,6 +79,16 @@ body {
 }
 /* ======= HEADER======*/
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -87,18 +97,23 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 .header-logo-black {
   color: #2e2f42;
 }
 
-.head-list {
+.header-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
 }
 
 .header-list-item {
@@ -118,9 +133,12 @@ body {
 }
 
 .address {
+  margin-left: auto;
 }
 
 .address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-list-item {
@@ -172,7 +190,9 @@ body {
   background: #4d5ae5;
   display: block;
   margin: 0 auto;
-
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .btn-order-service:hover,
@@ -191,10 +211,10 @@ body {
 
 .benefits-list {
   display: flex;
+  gap: 25px;
 }
 
 .benefits-list-item {
-  margin-right: 25px;
 }
 
 .benefits-subtitle {
@@ -219,15 +239,19 @@ body {
 .team-list {
   padding-bottom: 120px;
   display: flex;
+  gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
-  margin-right: 24px;
 }
 
 .team-img {
-  margin-bottom: 32px;
+}
+
+.team-card {
+  padding: 32px 16px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-subtitle {
@@ -257,14 +281,22 @@ body {
   margin-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .portfolio-list-item {
-  margin-right: 24px;
 }
 
 .portfolio-img {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
+}
+
+.portfolio-card {
+  padding-top: 32px;
+  padding-left: 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-subtitle {
