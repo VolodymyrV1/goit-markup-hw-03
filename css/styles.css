@@ -82,11 +82,13 @@ body {
   letter-spacing: 0.02em;
 }
 /* ======= HEADER======*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -119,9 +121,11 @@ body {
   color: #2e2f42;
   display: flex;
   gap: 40px;
+
 }
 
 .header-list-item {
+  padding: 24px 0;
 }
 
 .header-list-link {
@@ -168,9 +172,11 @@ body {
 
 .head {
   background: #2e2f42;
+  padding: 188px 0;
 }
+
 .head .container {
-  padding: 188px 0; 
+
 }
 
 .head-title {
@@ -213,7 +219,7 @@ body {
   padding-bottom: 120px;
 }
 
-.benefits-title {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -238,9 +244,9 @@ body {
 /* =====TEAM===== */
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .team .container {
-  padding: 120px 0;
 }
 
 .team-title {
@@ -280,9 +286,10 @@ body {
 /* =====PORTFOLIO===== */
 
 .portfolio {
+  padding: 120px 0;
 }
 .portfolio .container {
-  padding: 120px 0 120px 0
+
 }
 
 .portfolio-title {
