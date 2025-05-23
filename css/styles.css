@@ -84,6 +84,7 @@ body {
 /* ======= HEADER======*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header .container {
@@ -105,8 +106,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  margin-bottom: 24px;
-  margin-top: 24px;
 }
 
 .header-logo-black {
@@ -121,11 +120,9 @@ body {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-
 }
 
 .header-list-item {
-
 }
 
 .header-list-link {
@@ -177,7 +174,6 @@ body {
 }
 
 .head .container {
-
 }
 
 .head-title {
@@ -271,7 +267,6 @@ body {
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-img {
@@ -299,7 +294,6 @@ body {
   padding: 120px 0;
 }
 .portfolio .container {
-
 }
 
 .portfolio-title {
@@ -320,7 +314,6 @@ body {
 }
 
 .portfolio-img {
-
 }
 
 .portfolio-card {
