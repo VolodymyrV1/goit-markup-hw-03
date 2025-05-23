@@ -38,6 +38,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   padding-right: 15px;
@@ -82,6 +86,7 @@ body {
 .header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -163,7 +168,9 @@ body {
 
 .head {
   background: #2e2f42;
-  padding-bottom: 188px;
+}
+.head .container {
+  padding: 188px 0; 
 }
 
 .head-title {
@@ -173,7 +180,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -192,6 +198,7 @@ body {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  border: none;
   border-radius: 4px;
 }
 
@@ -207,14 +214,16 @@ body {
 }
 
 .benefits-title {
+  visibility: hidden;
 }
 
 .benefits-list {
   display: flex;
-  gap: 25px;
+  gap: 24px;
 }
 
 .benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-subtitle {
@@ -230,28 +239,30 @@ body {
 .team {
   background: #f4f4fd;
 }
+.team .container {
+  padding: 120px 0;
+}
 
 .team-title {
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
 .team-list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-img {
 }
 
 .team-card {
-  padding: 32px 16px;
-  border-radius: 0 0 4px 4px;
+  padding: 32px 0;
 }
 
 .team-subtitle {
@@ -270,30 +281,35 @@ body {
 
 .portfolio {
 }
+.portfolio .container {
+  padding: 120px 0 120px 0
+}
 
 .portfolio-title {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 
 .portfolio-list {
-  padding-bottom: 120px;
-  margin-bottom: 120px;
+  /* padding-bottom: 120px;
+  margin-bottom: 120px; */
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
 }
 
 .portfolio-img {
-  /* margin-bottom: 32px; */
+
 }
 
 .portfolio-card {
   padding-top: 32px;
   padding-left: 16px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -311,7 +327,7 @@ body {
 
 .footer {
   background: #2e2f42;
-  padding-top: 101.5px;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -331,6 +347,5 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
-  padding-bottom: 100px;
   max-width: 264px;
 }
